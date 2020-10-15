@@ -1,0 +1,18 @@
+{
+  "name": "bntu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js -i ./cat.jpg -a ./output.txt",
+    "create": "node index.js -c ./output.txt -o ./test.png",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "image-size": "^0.9.1",
+    "jimp": "^0.16.1",
+    "minimist": "^1.2.5"
+  }
+}
