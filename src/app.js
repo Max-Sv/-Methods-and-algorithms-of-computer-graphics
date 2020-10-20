@@ -2,6 +2,11 @@
 const Jimp = require("jimp");
 const sizeOf = require('image-size');
 const fs = require('fs');
+const {
+  accessFileErrorHandler,
+  argumentErrorHandler,
+  errorHandler
+} = require('./error')
 class App {
     constructor(console) {
         
